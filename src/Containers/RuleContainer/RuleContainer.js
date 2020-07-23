@@ -1,5 +1,5 @@
 //LIBRARIES
-import React from "react";
+import React, { Component } from "react";
 
 //COMPONENTS
 // import RulesList from "../../Components/RulesList";
@@ -9,7 +9,7 @@ const initialState = {
   currentRules: [],
 };
 
-class RuleContainer extends React.Component {
+class RuleContainer extends Component {
   constructor(props) {
     super(props);
     this.state = initialState;

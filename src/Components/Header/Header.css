@@ -1,5 +1,5 @@
 .header {
-  height: 10vh;
+  height: 80px;
   margin: 0;
   background-color: lightblue;
   display: flex;
@@ -7,8 +7,15 @@
   align-items: center;
 }
 
-.push {
-  margin-left: auto;
+.deck-dropdown {
+  width: 15%;
+}
+
+.new-deck-input {
+  height: 44px;
+}
+
+.submit-button {
 }
 
 @media screen and (min-width: 30em) {
